@@ -1,4 +1,11 @@
-  .bd-placeholder-img {
+body{
+ background-color: black;
+}
+.img-responsive {
+  height: 300px;
+  width: 200px;
+}
+ .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
         -webkit-user-select: none;
@@ -11,7 +18,35 @@
           font-size: 3.5rem;
         }
       }
-.topnav{
+     .topnav{
   overflow: hidden;
   background-color: #333;
+
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+.sticky{
+position:fixed;
+  top: 0;
+  width: 100%;
 }
